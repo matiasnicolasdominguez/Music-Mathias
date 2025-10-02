@@ -1,0 +1,35 @@
+.player {
+	border: 5px;
+	border-radius: 10px solid white;
+	padding: 2px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.controls {
+	border: 5px;
+	border-radius: 10px solid white;
+	padding: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.controls button {
+	position: relative;
+	top: -10px;
+	justify-items: center;
+	background-color: rgb(8, 30, 129);
+	border: none;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 2px;
+	cursor: pointer;
+}
+.controls input[type="range"] {
+	display: grid;
+	justify-content: center;
+	width: 20%;
+	height: 3px;
+	border-radius: 5px;
+	background: #d3d3d3;
+	outline: none;
+}
